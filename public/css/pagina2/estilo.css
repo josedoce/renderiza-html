@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(39, 248, 144);
+    
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 0 5px;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(247, 245, 245);
+}
