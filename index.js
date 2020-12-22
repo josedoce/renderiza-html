@@ -11,5 +11,5 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.use('/', rota);
 
-// endereço em caso de desenvolvimento http:localhost:3000
+// endereço em caso de desenvolvimento http:localhost:5000
 app.listen(PORT, () => console.log(`Rodando na ${ PORT }`));
