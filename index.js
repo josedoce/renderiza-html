@@ -11,5 +11,5 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use('/', rota);
 
 // endereço em caso de desenvolvimento http:localhost:3000
-app.listen(process.env.PORT); //troque por 3000, caso esteja desenvolvendo
+app.listen(3000||process.env.PORT);
 
