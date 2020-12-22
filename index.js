@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const rota = require('./paginas/declarar_pagina');
+const PORT = process.env.PORT || 5000;
 
 
 
@@ -11,5 +12,4 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use('/', rota);
 
 // endereço em caso de desenvolvimento http:localhost:3000
-app.listen(3000||process.env.PORT);
-
+app.listen(PORT, () => console.log(`Rodando na ${ PORT }`));
